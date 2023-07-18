@@ -1,0 +1,99 @@
+body {
+  font-family: "Pacifico", cursive;
+  font-family: "Rancho", cursive;
+  background-image: linear-gradient(
+    to right,
+    RGB(223, 255, 0),
+    RGB(255, 191, 0),
+    RGB(255, 127, 80),
+    RGB(222, 49, 99)
+  );
+}
+
+.section_one {
+  height: 30vh;
+  position: relative;
+}
+
+.section_one .img {
+  position: relative;
+}
+
+.section_one img {
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  left: 170px;
+}
+
+.section_one h1 {
+  font-size: 100px;
+}
+
+.section_two #round-btn {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 2px 4px white;
+  border-radius: 50%;
+}
+
+.section_two h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section_two h3 {
+  font-size: 45px;
+}
+
+span {
+  background-color: rgba(0, 0, 0, 0.308);
+  border-radius: 7px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btns button {
+  background-color: white;
+  border: white;
+  border-radius: 7px;
+  color: black;
+  width: 90px;
+  height: 40px;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+}
+
+li {
+  font-size: 27px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

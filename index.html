@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bookmarker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bookmarker.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rancho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/x-icon" href="chameleon.png">
+
+</head>
+
+<body>
+    <!--section one-->
+    <div class="section_one d-flex justify-content-center align-items-center flex-column mt-5">
+        <div class="img"><img src="chameleon.png" class="animate__animated animate__bounce"> </div>
+
+        <h1 class="text-white  ">Bookmarker</h1>
+        <input class="form-control w-50 m-auto" placeholder="Search..." onkeyup="search(this.value)">
+    </div>
+    <!--end of section one-->
+
+    <!--section two-->
+    <section class="section_two my-5">
+        <div class="container">
+            <!-- alert :error message-->
+            <div id="alert-box">
+                <!-- start of row -->
+                <div class="row">
+                    <div class="col-sm-12  col-md-12 col-lg-3 shadow text-center p-4 m-auto">
+                        <div class=" w-75 m-auto my-2">
+                            <button id="round-btn" onclick="getBookmark()">+</button>
+                            <h4 class="my-3 text-white">Add your Bookmarker</h4>
+                            <input id="siteName" class="form-control my-2" placeholder="Site Name">
+                            <input id="siteUrl" class="form-control" placeholder="Site URL">
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+
+            <!--add new card through js-->
+            <div class="row my-5" id="addNewCard">
+
+            </div>
+            <!--end of add new card-->
+
+        </div>
+    </section>
+
+    <script src="js/bookmarker.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
