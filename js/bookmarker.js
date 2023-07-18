@@ -21,7 +21,7 @@ function getBookmark() {
     displayBookMarker();
   } else {
     document.getElementById("alert-box").innerHTML = `
-    <div class="alert shadow w-50 p-5 m-auto p-absolute z-3 top-0 ">
+       <div class="col-sm-12 col-md-6 col-lg-6 alert shadow  p-5 m-auto p-absolute z-3 top-0">
             <p class="closebtn" onclick="this.parentElement.style.display='none';">&times;</p> 
             <h4>Site Name or Url is not valid, Please follow the rules below :</h4>
             <ul>
