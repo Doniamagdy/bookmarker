@@ -67,7 +67,7 @@ function deleteBookmark(index) {
   displayBookMarker();
 }
 
-function visitWebsite() {}
+// function visitWebsite() {}
 
 function search(search) {
   var addNewBookmark = ` `;
