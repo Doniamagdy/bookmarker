@@ -4,8 +4,11 @@
 
 A simple web application that allows users to save, manage, search, and delete their favorite website bookmarks.
 
+## 2.Live Demo
+[Live demo](https://doniamagdy.github.io/bookmarker/)
 
-## 2.Features
+
+## 3.Features
 
 -  Add a bookmark 
 -  Display bookmarks as responsive cards
@@ -15,7 +18,7 @@ A simple web application that allows users to save, manage, search, and delete t
 -  Data stored locally in the browser (Local Storage)
 
 
-## 3.Technologies
+## 4.Technologies
 
 - HTML5
 - CSS3
@@ -24,7 +27,7 @@ A simple web application that allows users to save, manage, search, and delete t
 
 
 
-## 4.How It Works
+## 5.How It Works
 
 1. User enters website name and URL
 2. Bookmark is added and displayed as a card
@@ -34,7 +37,7 @@ A simple web application that allows users to save, manage, search, and delete t
    - Search through bookmarks
 
 
-## 5.Project Structure
+## 6.Project Structure
 ```bash
 
 │   index.html
@@ -46,7 +49,7 @@ A simple web application that allows users to save, manage, search, and delete t
         bootstrap.bundle.min.js
 ```
 
-## 6.Contact
+## 7.Contact
 
 - Email: doniabahig92@gmail.com
 - LinkedIn: https://www.linkedin.com/in/donia-magdy-b6480612b/
