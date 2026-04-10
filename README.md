@@ -1,4 +1,4 @@
-# 📚 Bookmarker
+# Bookmarker
 
 ## 1.Description
 
@@ -7,14 +7,12 @@ A simple web application that allows users to save, manage, search, and delete t
 
 ## 2.Features
 
-- ➕ Add a bookmark by entering:
-  - Website name
-  - Website URL
-- 🧾 Display bookmarks as responsive cards
-- 🔗 Open saved websites directly
-- 🗑️ Delete bookmarks easily
-- 🔍 Search bookmarks by name
-- 💾 Data stored locally in the browser (Local Storage)
+-  Add a bookmark 
+-  Display bookmarks as responsive cards
+-  Open saved websites directly
+-  Delete bookmarks easily
+-  Search bookmarks by name
+-  Data stored locally in the browser (Local Storage)
 
 
 ## 3.Technologies
@@ -47,3 +45,10 @@ A simple web application that allows users to save, manage, search, and delete t
         bookmarker.js
         bootstrap.bundle.min.js
 ```
+
+## 6.Contact
+
+- Email: doniabahig92@gmail.com
+- LinkedIn: https://www.linkedin.com/in/donia-magdy-b6480612b/
+
+#### This project is part of my journey as a Frontend Developer💖
